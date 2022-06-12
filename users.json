@@ -1,0 +1,23 @@
+[
+  {
+   "username": "jane",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "gender": "Female",
+    "profileURL": "img/woman.jpeg",
+    "email": "jane.doe@example.com"
+  },
+
+
+  {
+    "username": "john",
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "profileURL": "img/man.png",
+    "email": "john.doe@example.com"
+  }
+
+  
+]
+
