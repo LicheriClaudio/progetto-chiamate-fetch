@@ -1,17 +1,12 @@
-.card-img {
-    border-radius: 100%;
+
     
-}
+
 
 .d-flex {
     justify-content: space-evenly;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     box-shadow: 5px 5px 5px rgb(94, 87, 87) ;
-    border: 4px red ;
+
 }
 
-.class {
-    margin-top: 2rem;
-    box-shadow: 8px 8px 8px rgb(94, 87, 87) ;
-    border: 4px red !important ;
-}

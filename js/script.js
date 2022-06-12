@@ -44,7 +44,7 @@
       
        // <li class="list-group-item">An item</li>
 
-       let p = document.createElement("div");
+       let p = document.createElement("p");
        p.className = "card-text";
        p.innerHTML = `<div id="card" class="card card-body text-center ">  <img src=" ${arr[0].profileURL}"
          class="card-img" alt="img_logo"> ${arr[0].firstName}    ${arr[0].lastName}   <button type="button" id="bott"; onclick="mostra()"  class="btn btn-success">More</button></div>`;
