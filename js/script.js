@@ -1,31 +1,5 @@
 
-/*  let ftch = fetch("../users.json").then(function(resp){
-  return resp.json();
-  
-}) 
-.then(function(data){
-  console.log(data[0])
-  console.log(data[1]);
-   arr = data  
-   console.log(arr[0]);
-   console.log(arr[1]);
-   let lista = document.querySelector("#crd");
-   data.forEach((ele) => {
-     // <li class="list-group-item">An item</li>
-     
-     let p = document.createElement("p");
-     p.className = "card-text";
-     p.innerHTML = '<img src="..." class="card-img-top" alt="...">' + ele.firstName + " " + ele.lastName + " " + ele.gender + (" + ele.email + ");
-     lista.appendChild(p);
-     console.log(p)
-     console.log(ele)
 
-
-     
-   });
-
-   
-}); */
 
 
  let ftch = fetch("../users.json")
@@ -167,35 +141,5 @@ function mostra1() {
 
 
 
-/* let btn = document.querySelector("#bott")
-btn.addEventListener('click', mostra) {
-  let info = document.querySelector('.card.img')
-} */
 
-
-/* function mostra(){
-  let ftch = fetch("../users.json")
-    .then(function (resp) {
-      return resp.json();
-    })
-    .then(function (data) {
-     
-      arr = data;
-      
-      let lista = document.querySelector("#bott");
-      data.forEach(() => {
-        // <li class="list-group-item">An item</li>
-        let p = document.createElement("p");
-        p.className = "card-text";
-        p.innerHTML = `Sesso: ${arr[1].gender} E-mail:    ${arr[1].email}`;
-        lista.appendChild(p);
-        
-      });
-    });
-  
-} */
-
-
-
-/*  ${ele.gender}  ${ele.email} */
 
